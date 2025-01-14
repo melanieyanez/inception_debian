@@ -1,0 +1,21 @@
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore editor-specific configurations
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Ignore logs or debug output
+*.log
+
+# Ignore redundant files
+*.md
+*.txt
+
+# Exclude secrets
+secrets/
+*.env
