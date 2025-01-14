@@ -1,11 +1,11 @@
 NAME = inception
 PATH_DOCKER_COMPOSE = srcs/docker-compose.yml
-PATH_DB_DATA = /Users/melanieyanez/Desktop/data/mariadb
-PATH_WP_DATA = /Users/melanieyanez/Desktop/data/wordpress
-PATH_ENV_FILE = /Users/melanieyanez/Desktop/.env
-#PATH_DB_DATA = /home/myanez-p/data/mariadb
-#PATH_WP_DATA = /home/myanez-p/data/wordpress
-#PATH_ENV_FILE = /home/myanez-p/.env
+#PATH_DB_DATA = /Users/melanieyanez/Desktop/data/mariadb
+#PATH_WP_DATA = /Users/melanieyanez/Desktop/data/wordpress
+#PATH_ENV_FILE = /Users/melanieyanez/Desktop/.env
+PATH_DB_DATA = /home/myanez-p/data/mariadb
+PATH_WP_DATA = /home/myanez-p/data/wordpress
+PATH_ENV_FILE = /home/myanez-p/.env
 
 all : prepare down build run
 
