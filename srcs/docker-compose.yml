@@ -53,8 +53,8 @@ volumes:
     driver: local
     name: db_data
     driver_opts: 
-      device: /Users/melanieyanez/Desktop/data/mariadb
-      #device: /home/myanez-p/data/mariadb
+      #device: /Users/melanieyanez/Desktop/data/mariadb
+      device: /home/myanez-p/data/mariadb
       type: none
       o: bind
 
@@ -62,8 +62,8 @@ volumes:
     driver: local
     name: wp_data
     driver_opts:
-      device: /Users/melanieyanez/Desktop/data/wordpress
-      #device: /home/myanez-p/data/wordpress
+      #device: /Users/melanieyanez/Desktop/data/wordpress
+      device: /home/myanez-p/data/wordpress
       type: none
       o: bind
 
